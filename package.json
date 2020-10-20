@@ -1,0 +1,24 @@
+{
+    "name": "mercury",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src -d dist",
+        "start": "node --experimental-modules --es-module-specifier-resolution=node --no-warnings index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@postlight/mercury-parser": "^2.2.0",
+        "amqplib": "^0.6.0",
+        "cli-color": "^2.0.0",
+        "dotenv": "^8.2.0",
+        "fs": "0.0.1-security",
+        "underscore": "^1.11.0"
+    },
+    "devDependencies": {}
+}

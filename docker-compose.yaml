@@ -1,0 +1,6 @@
+test:
+    image: newser_mercury
+    container_name: newser_mercury
+    restart: unless-stopped
+    volumes:
+        - "/srv/logs/newser_mercury:/usr/src/app/logs"
